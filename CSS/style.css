@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+header .auth a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.main-banner {
+    background: linear-gradient(90deg, #ffcc00, #ff6699, #66ccff, #9933ff);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.main-banner .banner-content h2 {
+    font-size: 36px;
+    color: #fff;
+}
+
+.main-banner .banner-content p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.image-section {
+    width: 45%;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.image-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.image-section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    width: 30%;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+footer ul li {
+    margin-right: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
